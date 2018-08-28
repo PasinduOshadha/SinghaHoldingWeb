@@ -1,0 +1,39 @@
+.box{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: 5px;
+    display: inline-block;
+}
+
+.red{
+    background-color:red;
+}
+
+.green{
+    background-color:green;
+}
+
+.blue{
+    background-color:blue;
+}
+
+.st0{
+	fill:none;
+	stroke:#4D4D4D;
+	stroke-width:2;
+	stroke-miterlimit:10;
+	animation: mine 3s cubic-bezier(0.37,-0.01, 1, 0.13) forwards ;
+}
+
+
+.st1{fill:none;stroke:#4D4D4D;stroke-miterlimit:10;}
+
+.logo-text{
+    height: 20em;
+}
+
+@keyframes mine{
+	0%		{fill:none;}
+	100%	{fill:#4D4D4D;}
+}

@@ -1,0 +1,135 @@
+body {
+    font-family: Montserrat;
+    background-image: url('assets/img/bg-01.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.cover {
+    height: 50vh;
+}
+
+/*.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#333333;stroke:#333333;stroke-miterlimit:10;} containing-shield*/
+/*.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#EEEEEE;} lion-face*/
+/* Logo text SVG*/
+/*Singha*/
+.singha-s,
+.singha-i,
+.singha-n,
+.singha-g,
+.singha-h,
+.singha-a {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: none;
+    stroke: #333333;
+    stroke-width: 2;
+    animation: fill 3s cubic-bezier(0.83,-0.01, 1, 0.11) forwards;
+}
+
+/*Holdings*/
+.letter-h,
+.letter-o,
+.letter-l,
+.letter-d,
+.letter-i,
+.letter-n,
+.letter-g,
+.letter-s {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: none;
+    stroke: #333333;
+    stroke-width: 1;
+    animation: fill 5.3s cubic-bezier(0.83,-0.01, 1, 0.11) forwards;
+}
+
+/*Logo text SVG end*/
+.svg-logo-main {
+    height: 10em;
+    animation: fade 2s cubic-bezier(0.215, 0.61, 0.355, 1) forwards;
+}
+
+.svg-text-path {
+    fill: #3E3B3A;
+}
+
+#logo-text svg {
+    height: 15em;
+    width: 100%;
+    text-align: center;
+}
+
+/*Lion face elements start*/
+.lion-face-upper,
+.lion-face-lower {
+    fill: #EEEEEE;
+}
+
+.containing-shield {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: none;
+    stroke: #333333;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+}
+
+.lion-hair {
+    fill: #333333;
+    stroke: none;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-miterlimit: 10;
+}
+
+.lion-eye {
+    fill: #333333;
+}
+
+/*Lion face elements end*/
+.svg-logo-text {
+    enable-background: new 0 0 258 120;
+    width: 18em;
+}
+
+ul > li > a {
+    color: #333;
+}
+
+ul > li > a:hover {
+    color: #333;
+}
+
+@keyframes fill{
+    0% {
+        fill: none;
+    }
+
+    100% {
+        fill: #333333;
+    }
+}
+
+@keyframes fade{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.info {
+    top: 1em;
+    position: relative;
+    background-image: url('assets/img/bottom-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0.8em;
+    color: #fff;
+    padding-top: 1em;
+}
