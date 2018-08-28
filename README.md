@@ -1,2 +1,2 @@
 # This is an inspirational web site.
-# Mainly focused on SVG ine drawing.
+# Mainly focused on SVG line drawing using "anime.js".
